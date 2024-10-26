@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "user": "Cobalt#7737",
+        "user_id": 543459004395946028,
+        "type": "aad",
+        "reason": "Advertising - Containing server IP / name (1)",
+        "warned_on": "13/01/2023, 19:50:00",
+        "expires_at": "13/01/2023, 20:50:00",
+        "moderator": "dang$$ # AAD"
+    },
+    {
+        "id": 2,
+        "user": "Cobalt#7737",
+        "user_id": 543459004395946028,
+        "type": "aad",
+        "reason": "Advertising - Containing server IP / name (2)",
+        "warned_on": "13/01/2023, 19:50:12",
+        "expires_at": "13/01/2023, 21:50:12",
+        "moderator": "dang$$ # AAD"
+    }
+]

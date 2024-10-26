@@ -1,0 +1,407 @@
+{
+    "prefix": "\/",
+    "dns": "dingo-mc.net",
+    "scoreboard_m": "/root/minecraft_m/minigames/data/scoreboard.dat",
+    "channels": {
+        "warnings": "1005785826782892113",
+        "mutes": "1005837229760970804",
+        "external_ip": "773584044352471081",
+        "internal_ip": "773583833885835325",
+        "players": "1002479331701964800",
+        "version": "773820617626877984",
+        "events": "1154113606015799326",
+        "test": "573608138645831743",
+        "ingame_chat": "1198674050776576070"
+    },
+    "whitelisted_channels": [
+        "572405052593930240",
+        "721649356523962369",
+        "571988546425061407",
+        "596963915464966166",
+        "590998880393625642",
+        "697356143864840232",
+        "765596672256114688",
+        "1052184241842180126"
+    ],
+    "admin": [
+        "534116871381975042"
+    ],
+    "mod": [
+        "534116871381975042",
+        "623784895503925249"
+    ],
+    "ads": [
+        "ypixel",
+        "mineplex",
+        "hivemac",
+        "skykingdoms",
+        "quantum-mc",
+        "Cobalt Knights",
+        "cubegame",
+        "play.",
+        "discord.gg\/",
+        "mineplay",
+        "kokscraf",
+        "kokskraf",
+        "aternos.me"
+    ],
+    "swears": [
+        "kurw",
+        "huj",
+        "pierdal",
+        "fuck",
+        "shit",
+        "bitch",
+        "nigg",
+        "pierdol",
+        "idiot",
+        "kurfa",
+        "sht",
+        "sh1t",
+        "b1tch",
+        "a$$",
+        "debil",
+        "d3bil",
+        "deb1l",
+        "d3b1l",
+        "as$",
+        "a$s",
+        "fck",
+        "ni66",
+        "curva",
+        "kuta",
+        "penis",
+        "p3nis",
+        "pen1s",
+        "p3n1s",
+        "pizd",
+        "pitalaj",
+        "jeba",
+        "dure",
+        "durn",
+        "ebany",
+        "hitler",
+        "h1tler",
+        "hitl3r",
+        "h1tl3r",
+        "kur\u0142a",
+        "anal",
+        "zajeba",
+        "zajebi"
+    ],
+    "versions": [
+        {
+            "name": "Bot Version",
+            "type": "4.0.1"
+        },
+        {
+            "name": "Bot Core",
+            "type": "1.7"
+        },
+        {
+            "name": "Python Version",
+            "type": "3.11.0"
+        },
+        {
+            "name": "Server OS",
+            "type": "Ubuntu 22.04-LTS"
+        },
+        {
+            "name": "dang$$ LWJGL",
+            "type": "3.0.3"
+        },
+        {
+            "name": "dang$$ instance",
+            "type": "umbry-0.20.3-rev.1"
+        },
+        {
+            "name": "akka-core",
+            "type": "akka-dang-0.5.1216db01.py"
+        },
+        {
+            "name": "umbry-core",
+            "type": "umbry-dang-0.1.1524fcb0.py"
+        }
+    ],
+    "commands": [
+        {
+            "name": "deaths",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show server death count of yourself\/given player"
+        },
+        {
+            "name": "fact",
+            "arguments": [],
+            "description": "Get a random fact about MC.Dingolan.pl"
+        },
+        {
+            "name": "help",
+            "arguments": [
+                {
+                    "name": "Page",
+                    "required": "false",
+                    "description": "Display selected help list page"
+                }
+            ],
+            "description": "Show list of commands"
+        },
+        {
+            "name": "history",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                },
+                {
+                    "name": "Page",
+                    "required": "false",
+                    "description": "Display selected history page"
+                }
+            ],
+            "description": "Show your\/player's minecraft punishments"
+        },
+        {
+            "name": "ip",
+            "arguments": [],
+            "description": "Get current IPs of Minecraft Server"
+        },
+        {
+            "name": "kills",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show server kill count of yourself\/given player"
+        },
+        {
+            "name": "kdr",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show server KDR of yourself\/given player"
+        },
+        {
+            "name": "leaderboard",
+            "arguments": [
+                {
+                    "name": "Game",
+                    "required": "false",
+                    "description": "Game Name or Code"
+                }
+            ],
+            "description": "Get top 3 players of a game. If none game specified it bases on general points."
+        },
+        {
+            "name": "points",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show general points of yourself\/given player"
+        },
+        {
+            "name": "playtime",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show server playtime of yourself\/given player"
+        },
+        {
+            "name": "ranklist",
+            "arguments": [
+                {
+                    "name": "Page",
+                    "required": "false",
+                    "description": "Display selected rank list page"
+                }
+            ],
+            "description": "Show list of global ranks"
+        },
+        {
+            "name": "score",
+            "arguments": [
+                {
+                    "name": "Game",
+                    "required": "true",
+                    "description": "Game Name or Code"
+                },
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Show game score of yourself\/given player"
+        },
+        {
+            "name": "uwu",
+            "arguments": [
+                {
+                    "name": "Message",
+                    "required": "true",
+                    "description": "Message You want to uwuify"
+                }
+            ],
+            "description": "UwUify your message"
+        },
+        {
+            "name": "version",
+            "arguments": [],
+            "description": "Get information about the bot"
+        },
+        {
+            "name": "where",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "false",
+                    "description": "Player in-game name (Case Sensitive)"
+                }
+            ],
+            "description": "Check in-game location of a player"
+        },
+        {
+            "name": "warn",
+            "arguments": [
+                {
+                    "name": "User",
+                    "required": "true",
+                    "description": "Discord User (@Mention)"
+                },
+                {
+                    "name": "Duration",
+                    "required": "true",
+                    "description": "Warning Duration"
+                },
+                {
+                    "name": "Reason",
+                    "required": "false",
+                    "description": "Warning Reason"
+                }
+            ],
+            "description": "Warn a Discord Member (Staff only)"
+        },
+        {
+            "name": "mute",
+            "arguments": [
+                {
+                    "name": "User",
+                    "required": "true",
+                    "description": "Discord User (@Mention)"
+                },
+                {
+                    "name": "Duration",
+                    "required": "true",
+                    "description": "Mute Duration"
+                },
+                {
+                    "name": "Reason",
+                    "required": "false",
+                    "description": "Mute Reason"
+                }
+            ],
+            "description": "Mute a Discord Member (Staff only)"
+        },
+        {
+            "name": "mcwarn",
+            "arguments": [
+                {
+                    "name": "Player",
+                    "required": "true",
+                    "description": "Player IGN"
+                },
+                {
+                    "name": "Duration",
+                    "required": "true",
+                    "description": "Warning Duration"
+                },
+                {
+                    "name": "Reason",
+                    "required": "false",
+                    "description": "Warning Reason"
+                }
+            ],
+            "description": "Warn a Minecraft Player (Staff only)"
+        },
+        {
+            "name": "sudo",
+            "arguments": [
+                {
+                    "name": "Text",
+                    "required": "true",
+                    "description": "Message"
+                }
+            ],
+            "description": "Execute as dang$$ (Staff only)"
+        },
+        {
+            "name": "restart",
+            "arguments": [],
+            "description": "Restart Bot (Staff only)"
+        },
+        {
+            "name": "updatename",
+            "arguments": [
+                {
+                    "name": "Old",
+                    "required": "true",
+                    "description": "Old Playername"
+                },
+                {
+                    "name": "New",
+                    "required": "true",
+                    "description": "New Playername"
+                }
+            ],
+            "description": "Update Player IGN (Staff only)"
+        },
+        {
+            "name": "addplayer",
+            "arguments": [
+                {
+                    "name": "Name",
+                    "required": "true",
+                    "description": "Playername"
+                },
+                {
+                    "name": "Prefix",
+                    "required": "true",
+                    "description": "Prefix (color)"
+                },
+                {
+                    "name": "User",
+                    "required": "true",
+                    "description": "Discord User"
+                },
+                {
+                    "name": "Descriptor",
+                    "required": "true",
+                    "description": "3-letter descriptor"
+                }
+            ],
+            "description": "Add new player (Staff only)"
+        }
+    ],
+    "iplocal": "192.168.1.200"
+}

@@ -1,0 +1,6 @@
+.env
+.vscode/
+dang/__pycache__
+dang/automod/__pycache__
+dang/commands/__pycache__
+dang/models/__pycache__
